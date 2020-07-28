@@ -15,7 +15,7 @@
 ```sudo apt-get install libelf-dev```
 
 ### Build Kernel locally
-``` sudo apt-get install linux-image-`uname -r` ```
+``` sudo apt-get install linux-`uname -r` ```
 
 ```cd ~/usr/src/linux-4.15.18```
 
@@ -52,6 +52,8 @@
 ```sudo update-grub2```
 
 ### Build Kernel Deb Package
+``` sudo apt-get install linux-`uname -r` ```
+
 ```cd ~/usr/src/linux-4.15.18```
 
 ```sudo cp /boot/config-4.15.0-20-generic .config```
