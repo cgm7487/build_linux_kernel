@@ -17,6 +17,8 @@
 ### Build Kernel locally
 ``` sudo apt-get install linux-`uname -r` ```
 
+``` tar jxvf /usr/src/linux-4.15.18.tar.bz ```
+
 ```cd ~/usr/src/linux-4.15.18```
 
 ```sudo cp /boot/config-4.15.0-20-generic .config```
@@ -53,6 +55,8 @@
 
 ### Build Kernel Deb Package
 ``` sudo apt-get install linux-`uname -r` ```
+
+``` tar jxvf /usr/src/linux-4.15.18.tar.bz ```
 
 ```cd ~/usr/src/linux-4.15.18```
 
